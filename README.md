@@ -5,6 +5,8 @@
 
 ## Java
 
+### Books
+   - 深入理解Java虚拟机
 
 ## Redis
 
