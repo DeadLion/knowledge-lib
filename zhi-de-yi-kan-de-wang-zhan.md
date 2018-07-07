@@ -1,3 +1,5 @@
+# 网站/博客
+
 * [IBM developerWorks](https://www.ibm.com/developerworks)
 
 * [美团技术团队](https://tech.meituan.com)
@@ -8,5 +10,10 @@
 
 * [编程狂人](https://www.tuicool.com/mags)
 
+# 书籍
+
+* 《高性能MySQL》
+
+* 
 
 
