@@ -1,3 +1,5 @@
+## 存储引擎
+MySQL默认的存储引擎是MyISAM，其他常用的就是InnoDB了。
 |  | MyISAM | InnoDB |
 | :--- | :--- | :--- |
 | 存储结构 | 每张表被存放在三个文件：frm-表格定义MYD\(MYData\)-数据文件MYI\(MYIndex\)-索引文件 | 所有的表都保存在同一个数据文件中（也可能是多个文件，或者是独立的表空间文件），InnoDB表的大小只受限于操作系统文件的大小，一般为2GB |
@@ -15,5 +17,5 @@
 | 外键 | 不支持 | 支持 |
 | FULLTEXT全文索引 | 支持 | 不支持 可以通过使用Sphinx从InnoDB中获得全文索引，会慢一点 |
 
-
+[MySQL存储引擎MyISAM与InnoDB的优劣](https://www.pureweber.com/article/myisam-vs-innodb/)
 
