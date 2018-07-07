@@ -21,8 +21,9 @@ MySQL默认的存储引擎是MyISAM，其他常用的就是InnoDB了。
 | 外键 | 不支持 | 支持 |
 | FULLTEXT全文索引 | 支持 | 不支持 可以通过使用Sphinx从InnoDB中获得全文索引，会慢一点 |
 
-  
 
+
+资料来源：
 
 [MySQL存储引擎MyISAM与InnoDB的优劣](https://www.pureweber.com/article/myisam-vs-innodb/)
 
