@@ -1,4 +1,4 @@
-## 存储引擎
+# 存储引擎
 
 MySQL默认的存储引擎是MyISAM，其他常用的就是InnoDB了。
 
@@ -21,13 +21,11 @@ MySQL默认的存储引擎是MyISAM，其他常用的就是InnoDB了。
 | 外键 | 不支持 | 支持 |
 | FULLTEXT全文索引 | 支持 | 不支持 可以通过使用Sphinx从InnoDB中获得全文索引，会慢一点 |
 
-
-
 资料来源：
 
 [MySQL存储引擎MyISAM与InnoDB的优劣](https://www.pureweber.com/article/myisam-vs-innodb/)
 
-## 锁
+# 锁
 
 对于InnoDB表，主要有以下几点
 
@@ -49,4 +47,14 @@ MySQL默认的存储引擎是MyISAM，其他常用的就是InnoDB了。
   * 对于一些特定的事务，可以使用表锁来提高处理速度或减少死锁的可能。
 
 [更多内容请查看](http://www.cnblogs.com/chenqionghe/p/4845693.html)
+
+
+
+# 索引
+
+## 索引概述
+
+索引的目的是为了提高查询效率。原理和图书的目录类似。
+
+
 
